@@ -23,14 +23,25 @@ module.exports = {
                 exclude: /node_modules/,
                 use: [
                     { loader: 'style-loader' },
+<<<<<<< HEAD
                     { loader: 'css-loader' },
+=======
+                    { loader: 'css-loader' }
+>>>>>>> 2588fd0820b4ae58d590a75dc6a3863de2a99f59
                 ]
             },
             {
                 test: /.*\.(gif|png|svg|jpe?g)$/i,
+<<<<<<< HEAD
                 use: {
                     loader: 'file-loader',
                 }
+=======
+                use: [
+                    { loader: 'file-loader' },
+
+                ]
+>>>>>>> 2588fd0820b4ae58d590a75dc6a3863de2a99f59
             }
         ]
     },
